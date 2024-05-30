@@ -1,4 +1,5 @@
 import 'package:demo_app/presentation/screens/counter/counter_funtion_screen.dart';
+import 'package:demo_app/presentation/screens/login/login_screen.dart';
 //import 'package:demo_app/presentation/screens/counter/counter_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(colorSchemeSeed: Colors.deepPurple[300]),
         darkTheme: ThemeData.dark(),
-        home: const counterFunctionScreen());
+        home: const LoginScreen());
   }
 }
